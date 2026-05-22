@@ -1,5 +1,5 @@
 import Result from "./Result.jsx";
-import "./Styles.css";
+import "./styles.css";
 
 function ResultBox({ results, onReset }) {
   const { totalTip, grandTotal, perPerson } = results;
